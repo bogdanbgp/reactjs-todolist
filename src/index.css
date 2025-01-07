@@ -81,6 +81,12 @@ p {
   background: white;
 }
 
+/* Completed task styling */
+.todoItem.done {
+  background-color: #66bb6a; /* Softer green */
+  color: white; /* White text for better visibility */
+}
+
 .todoItem p {
   flex: 1;
 }
@@ -102,10 +108,12 @@ p {
   opacity: 0.7;
 }
 
-
+.actionsContainer button:disabled {
+  opacity: 0.5; /* Make the disabled button look inactive */
+  cursor: not-allowed; /* Change cursor to indicate it's disabled */
+}
 
 @media (min-width: 640px) {
-
   header button,
   header input {
     font-size: 1.2em;

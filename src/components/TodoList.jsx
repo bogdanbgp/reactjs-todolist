@@ -13,7 +13,7 @@ export default function TodoList(props) {
             key={todoIndex}
             index={todoIndex}
           >
-            <p>{todo}</p>
+            <p>{todo.text}</p>
           </TodoCard>
         );
       })}
