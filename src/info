@@ -1,0 +1,26 @@
+steps to create this proj and understanding
+
+npm create vite@latest reactjs-todolist
+select React, JavaScript
+
+____________________________
+
+...
+JSX in React is basically HTML in which
+JavaScript code can be written.
+
+example1 <div>{4 * 4}</div>, where 4 * 4
+is JS written within JSX.
+
+example2 <p>{todo}</p>
+...
+
+____________________________
+
+with React -native snippets extension,
+use 'rfc' to create a 
+react functional component
+
+____________________________
+
+MAPPING OUT CONTENT IN REACT:
